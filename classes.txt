@@ -1,0 +1,14 @@
+Boat Class
+
+**Attributes**
+1. onboard_engine (boolean)
+2. engine_hours (integer)
+3. color (string)
+4. hull_decal_text (array)
+5. waterproof (boolean)
+
+**Methods**
+1. service_engine (if onboard_engine attribute is 'yes', engine_hours attribute will determine service_engine attribute)
+2. maintain_hull (changes the color attribute and waterproof attribute)
+3. give_name (append a decal text item into the hull_decal_text array)
+4. sail (affected by onboard_engine and waterproof attribute. engine_hours attribute +1)
