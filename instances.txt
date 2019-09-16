@@ -1,0 +1,29 @@
+Object #1: Leaky Wooden Rowboat
+
+Attributes:
+1. onboard_engine: no
+2. engine_hours: 0
+3. color: "white"
+4. hull_decal_text: "no_text"
+5. waterproof: no
+
+Methods:
+1. service_engine: no
+2. maintain_hull: color = "Blue" / waterproof = yes
+3. give_name: hull_decal_text = "Betsy"
+4. sail: onboard_engine attribute = no therefore engine_hours attribute remains 0
+
+Object #2: 67' Bertram 2005
+
+Attributes:
+1. onboard_engine: yes
+2. engine_hours: 20800
+3. color: "white"
+4. hull_decal_text: "Betty Sue"
+5. waterproof: yes
+
+Methods:
+1. service_engine: no
+2. maintain_hull: color = "white" / waterproof = yes
+3. give_name: hull_decal_text = "Bertha"
+4. sail: onboard_engine attribute = yes / engine_hours attribute +1
